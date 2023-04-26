@@ -1,0 +1,7 @@
+---
+- name: Install 
+  ansible.builtin.dnf:
+    name:
+      - android-tools
+    state: latest
+  become: true

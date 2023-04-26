@@ -1,0 +1,6 @@
+---
+- name: Install 
+  ansible.builtin.apt:
+    pkg:
+    - android-sdk-platform-tools
+  become: true
