@@ -1,5 +1,6 @@
 https://technastic.com/how-to-find-android-device-codename/
 
-```adb shell
+```
+adb shell
 getprop | grep device
 ```
