@@ -1,0 +1,7 @@
+---
+- hosts: localhost #, net
+  vars:
+    ansible_become_password: u
+
+  roles:
+  - ADB
